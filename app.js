@@ -9,7 +9,7 @@ function getStartGame() {
     setQuantidade()
     setStartNumber()
     setEndNumber()
-    checkNumbers(startNumber, endNumber)
+    checkNumbers(quantitiy, startNumber, endNumber)
 }
 
 /**
@@ -85,7 +85,8 @@ function cleanInput() {
 function restartGame() {
     cleanInput()
     changeStatusBotao()
-}
+    listSortNumbers = []
+    changeText("sortNumbers", `Números sorteados:  ${listSortNumbers}`)}
 
 /**
  * @description alterar o status do botão habilitando e desabilitando ele
@@ -102,7 +103,7 @@ function changeStatusBotao() {
     }
 }
 
-function checkNumbers(startNumber, endNumber) {
+function checkNumbers(quantitiy, startNumber, endNumber) {
 
     if(startNumber>= endNumber) {
         alert("O numero inicial é maior ou igual ao número final. Confira os valores e Sorteia novamente")

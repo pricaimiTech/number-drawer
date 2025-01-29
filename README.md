@@ -15,6 +15,9 @@ Você irá escolher a quantidade de números que será sorteada e informar o num
 
 Acesse o jogo pelo link [JOGAR AQUI](https://number-drawer-kappa.vercel.app/)
 
+<img src="./img/game_image.png">
+
+
 ## Quer aprender a desenvolver sistemas assim como eu ?
 
 Utilize meu cupom de desconto na [Alura com 15% OFF](https://www.alura.com.br/indica-dev/priscilacaimi)
